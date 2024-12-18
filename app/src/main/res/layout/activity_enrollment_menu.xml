@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Subjects"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/subject1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mathematics (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chemistry (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biology (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Science (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Economics (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Philosophy (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Literature (3 Credits)"
+        android:tag="3" />
+
+    <CheckBox
+        android:id="@+id/subject10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geography (3 Credits)"
+        android:tag="3" />
+
+    <TextView
+        android:id="@+id/creditCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Credits: 0"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
